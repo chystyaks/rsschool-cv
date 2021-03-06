@@ -1,10 +1,19 @@
-Sergiy Chystyak
+# Sergiy Chystyak
+
+---
+contacts:
 
 +380934387333
+
 chystyaks@gmail.com
+
 https://www.linkedin.com/in/sergiy-chystyak-005a2b1a3/
+
 https://t.me/chystyaks
+
 https://github.com/chystyaks
+
+---
 
 My name is Sergiy and i am from Ukraine. 
 I always liked tech field 
@@ -15,8 +24,10 @@ One of my strengths is perseverence.
 Once i am into something i am becoming obsessed with it
 untill i know everything about it. 
 
-HTML. CSS. JS. GIT.
+Skills:
 
-**code example**
-
-english level is B2
+    * HTML
+    * CSS
+    * JS
+    * GIT
+    * English B2
