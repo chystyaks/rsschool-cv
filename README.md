@@ -1,1 +1,1 @@
-https://github.com/chystyaks/rsschool-cv/cv
+https://chystyaks.github.io/rsschool-cv/cv
