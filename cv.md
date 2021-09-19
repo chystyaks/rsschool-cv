@@ -1,4 +1,20 @@
-# Sergiy Chystyak
+
+![My Photo](./assets/CVCircle-modified.png)
+
+---
+
+
+![phone](./assets/phone.png) &nbsp;&nbsp;&nbsp; [+380934387333](+380934387333)
+
+![mail](./assets/email.png) &nbsp;&nbsp;&nbsp;&nbsp; <chystyaks@gmail.com>
+
+![linkedin](./assets/linkedin.png) &nbsp;&nbsp;&nbsp;&nbsp; <https://www.linkedin.com/in/sergiy-chystyak-005a2b1a3/>
+
+![telegram](./assets/telegram.png) &nbsp;&nbsp;&nbsp;&nbsp; <https://t.me/chystyaks>
+
+![github](./assets/github.png) &nbsp;&nbsp;&nbsp;&nbsp; <https://github.com/chystyaks>
+
+---
 
 My name is Sergiy and i am from Ukraine. 
 I always liked tech field 
@@ -19,7 +35,7 @@ Languages:
     * Ukrainian
     * Russian
     * Italian
-    
+
 Example of my code:
 
 ```javascript
