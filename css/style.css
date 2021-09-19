@@ -1,0 +1,37 @@
+.body {
+  margin: 0 auto;
+  width: 50%;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+.contacts {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.cnt-links {
+  padding: 5px;
+}
+.content {
+  position: relative;
+  right: 10px;
+}
+.description {
+  font-size: 20px;
+}
+.code {
+  font-size: 14px;
+}
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  bottom: 10px;
+}
+.rslogo {
+  width: 80px;
+  height: 80px;
+}
