@@ -1,6 +1,7 @@
 .body {
+  position: relative;
   margin: 0 auto;
-  width: 50%;
+  width: 60%;
   font-family: "Montserrat", sans-serif;
   display: flex;
   flex-direction: column;
@@ -9,15 +10,21 @@
   display: flex;
   flex-direction: row;
   list-style-type: none;
-  margin: 0;
+  margin-top: 50px;
   padding: 0;
 }
 .cnt-links {
   padding: 5px;
+  opacity: .7;
+  transition: opacity 150ms ease-in-out;
+  
+}
+.cnt-links:hover {
+opacity: 1;
 }
 .content {
   position: relative;
-  right: 10px;
+  margin-left: 300px;
 }
 .description {
   font-size: 20px;
@@ -29,9 +36,19 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  bottom: 10px;
+  align-items: baseline;
+  margin-top: 50px;
 }
 .rslogo {
   width: 80px;
   height: 80px;
+}
+.descript-title {
+  font-size: 25px;
+  font-weight: 700;
+}
+.skills {
+  position: absolute;
+  margin-top: 460px;
+  font-weight: 600;
 }
