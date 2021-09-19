@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="x-ua-compatible" content="ie=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>CV</title>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <h1 class="mainname">Sergiy Chystyak</h1>
+      <img src="./assets/CVCircle-modified.png" alt="Photo of myself"/>
+      <ul class="contacts">
+        <li>
+          <a href="tel:+380934387333">
+            <img src="./assets/icons8-phone.svg" alt="phone icon"/>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/sergiy-chystyak-005a2b1a3/">
+            <img src="./assets/icons8-linkedin-circled.svg" alt="linkedIn icon"/>
+          </a>
+        </li>
+        <li>
+          <a href="mailto:chystyaks@gmail.com">
+            <img src="./assets/icons8-mail.svg" alt="email icon"/>
+          </a>
+        </li>
+        <li>
+          <a href="https://t.me/chystyaks">
+            <img src="./assets/icons8-telegram-app.svg" alt="telegram icon"/>
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/chystyaks">
+            <img class="ghub" src="./assets/icons8-github.svg" alt="github icon"/>
+          </a>
+        </li>
+      </ul>
+    </header>
+    <aside class="skills">
+      <h2 class="title__skills"><mark>Skills</mark></h2>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JS</li>
+        <li>GIT</li>
+      </ul>
+      <h3 class="title__skills"><mark>Languages</mark></h3>
+      <ul>
+        <li>English(B2)</li>
+        <li>Ukranian</li>
+        <li>Russian</li>
+        <li>Italian</li>
+      </ul>
+      <h4 class="title__skills"><mark>Hobbies</mark></h4>
+      <ul>
+        <li>Running</li>
+        <li>Hiking</li>
+        <li>Chess</li>
+      </ul>
+    </aside>
+    <main class="content">
+      <section class="description">
+        <pre>
+  Hello! My name is Sergiy, i am from Ukraine 
+and i have a degree in forestry engineering.
+I always liked tech field but never tried 
+to make it my job...untill now. 
+  My current life goal is to make a career in IT,
+specifically in front-end developing
+because i like the idea of using my skills
+in design and logic of code.
+    </pre>
+      </section>
+      <h5>EXAMPLE OF MY CODE:</h5>
+      <div class="code">
+        <code>
+          function tickets(peopleInLine){<br />
+          let counter25=0, counter50=0;<br />
+
+          for (let i =0; i&#60;peopleInLine.length;i++){<br />
+
+          if (peopleInLine[i]===100&&(counter25>0&&(counter50>0||counter25>2)))
+          {<br />
+
+          counter50>0?(counter50--,counter25--):counter25-=3;<br />
+
+          } else if (peopleInLine[i]===50&&counter25>0) {<br />
+
+          counter50++;<br />
+          counter25--;<br />
+
+          } else if (peopleInLine[i]===25) {<br />
+          counter25++;<br />
+          } else return "NO";<br />
+          }<br />
+          return "YES";<br />
+          }<br />
+        </code>
+      </div>
+    </main>
+    <footer class="footer">
+      <a class="rslogo" href="https://rs.school/js/">
+        <img src="https://rs.school/images/rs_school_js.svg" alt="RS School logo">
+        </a>
+      <a href="https://github.com/chystyaks">
+        <img src="./assets/icons8-github.svg" alt="github icon"/>
+      </a>
+      <time datetime="2021-09-20">September 20, 2021</time>
+    </footer>
+  </body>
+</html>
