@@ -13,8 +13,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap" rel="stylesheet">
   </head>
   <body class="body">
+    <div class="container">
     <header>
-    <script>hljs.initHighlightingOnLoad();</script>
       <h1 class="main-name">Sergiy Chystyak</h1>
       <img src="./assets/CVCircle-modified.png" alt="Photo of myself"/>
       <ul class="contacts">
@@ -89,9 +89,9 @@ in design and logic of code.
 function tickets(peopleInLine){
   let count25=0,  count50=0;
   
-  for (let i=0; i<peopleInLine.length;i++){
+  for (let i=0; i&#60;peopleInLine.length;i++){
   
-  if (peopleInLine[i]===100&&(count25>0&&(count50>0||count25>2))) {
+  if (peopleInLine[i]===100&&(count25&#62;0&&(count50>0||count25>2))) {
       
     counter50>0?(count50--,count25--):count25-=3;
             
@@ -119,5 +119,7 @@ function tickets(peopleInLine){
       </a>
       <time datetime="2021-09-20">September 2021</time>
     </footer>
+  </div>
+    <script>hljs.initHighlightingOnLoad();</script>
   </body>
 </html>
