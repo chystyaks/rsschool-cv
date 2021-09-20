@@ -1,7 +1,7 @@
 .body {
   position: relative;
   margin: 0 auto;
-  width: 60%;
+  width: 50%;
   font-family: "Montserrat", sans-serif;
   display: flex;
   flex-direction: column;
@@ -13,14 +13,17 @@
   margin-top: 50px;
   padding: 0;
 }
-.cnt-links {
+.cnt-links img {
+  width: 35px;
+  height: 35px;
   padding: 5px;
   opacity: .7;
-  transition: opacity 150ms ease-in-out;
-  
+  transition: transform .2s ease-in-out;
 }
-.cnt-links:hover {
+.cnt-links img:hover {
 opacity: 1;
+transform : scale(1.5);
+transition: all 0.4s ease-in-out;
 }
 .content {
   position: relative;
@@ -28,9 +31,6 @@ opacity: 1;
 }
 .description {
   font-size: 20px;
-}
-.code {
-  font-size: 14px;
 }
 .footer {
   display: flex;
@@ -51,4 +51,7 @@ opacity: 1;
   position: absolute;
   margin-top: 460px;
   font-weight: 600;
+}
+.code {
+  font-size: 20px;
 }
