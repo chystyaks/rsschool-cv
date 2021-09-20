@@ -5,6 +5,8 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>CV</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/styles/atom-one-light.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/highlight.min.js"></script>
     <link rel="stylesheet" href="css/style.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
@@ -12,32 +14,33 @@
   </head>
   <body class="body">
     <header>
+    <script>hljs.initHighlightingOnLoad();</script>
       <h1 class="main-name">Sergiy Chystyak</h1>
       <img src="./assets/CVCircle-modified.png" alt="Photo of myself"/>
       <ul class="contacts">
         <li>
+          <a class="cnt-links" href="mailto:chystyaks@gmail.com">
+            <img src="./assets/email (1).png" alt="email icon"/>
+          </a>
+        </li>
+        <li>
           <a class="cnt-links" href="tel:+380934387333">
-            <img src="./assets/phone.png" alt="phone icon"/>
+            <img src="./assets/phone-call (1).png" alt="phone icon"/>
           </a>
         </li>
         <li>
           <a class="cnt-links" href="https://www.linkedin.com/in/sergiy-chystyak-005a2b1a3/">
-            <img src="./assets/linkedin.png" alt="linkedIn icon"/>
-          </a>
-        </li>
-        <li>
-          <a class="cnt-links" href="mailto:chystyaks@gmail.com">
-            <img src="./assets/email.png" alt="email icon"/>
+            <img src="./assets/linkedin (1).png" alt="linkedIn icon"/>
           </a>
         </li>
         <li>
           <a class="cnt-links" href="https://t.me/chystyaks">
-            <img src="./assets/telegram.png" alt="telegram icon"/>
+            <img src="./assets/telegram (1).png" alt="telegram icon"/>
           </a>
         </li>
         <li>
           <a class="cnt-links" href="https://github.com/chystyaks">
-            <img class="ghub" src="./assets/github.png" alt="github icon"/>
+            <img class="ghub" src="./assets/github (1).png" alt="github icon"/>
           </a>
         </li>
       </ul>
@@ -81,29 +84,30 @@ in design and logic of code.
       </section>
       <h5>EXAMPLE OF MY CODE:</h5>
       <div class="code">
-        <code>
-          function tickets(peopleInLine){<br>
-          let counter25=0, counter50=0;<br>
-
-          for (let i =0; i&#60;peopleInLine.length;i++){<br>
-
-          if (peopleInLine[i]===100&&(counter25>0&&(counter50>0||counter25>2)))
-          {<br>
-
-          counter50>0?(counter50--,counter25--):counter25-=3;<br>
-
-          } else if (peopleInLine[i]===50&&counter25>0) {<br>
-
-          counter50++;<br>
-          counter25--;<br>
-
-          } else if (peopleInLine[i]===25) {<br>
-          counter25++;<br>
-          } else return "NO";<br>
-          }<br>
-          return "YES";<br>
-          }<br>
+        <pre>
+          <code class="javascript">
+function tickets(peopleInLine){
+  let count25=0,  count50=0;
+  
+  for (let i=0; i<peopleInLine.length;i++){
+  
+  if (peopleInLine[i]===100&&(count25>0&&(count50>0||count25>2))) {
+      
+    counter50>0?(count50--,count25--):count25-=3;
+            
+  } else if (peopleInLine[i]===50&&count25>0) {
+      
+      count50++;
+      count25--;
+      
+    } else if (peopleInLine[i]===25) {
+      count25++;
+    } else return "NO";
+  }
+    return "YES";
+}
         </code>
+      </pre>
       </div>
     </main>
     <footer class="footer">
